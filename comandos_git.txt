@@ -1,0 +1,70 @@
+Criando chave SSH:
+
+	abra o git bash ou linha de comando(linux ou mac) e digitemos seguintes comandos:
+
+		1-) ssh-keygen -t rsa -b 4096 -C "endereço de email"
+
+		# Copia a chave ssh
+		2-) clip < ~/.ssh/id_rsa.pub
+
+	Depois salve nas configurações de seu usuário no github
+
+Comandos;
+
+Ajuda: git help
+
+Criando Repositório: git init nome_repositorio
+
+Adicionando Arquivo: git add nome_arquivo.extensao
+
+Commitando Arquivo: git commit
+
+Status do Repositorio: git status
+
+Ver ultimos commits: git log
+
+git remote add origin https://github.com/hcapatto/StarWarsRepo.git
+
+git remote -v
+
+Fetch: permite baixar coisas do repositório
+
+Push: Enviar coisas para o repositório
+
+Enviando Arquivo; git push -u origin master
+
+VOltar aterações: git checkout -- nome_arquivo
+
+Exibir diferença entre commit e branch: git diff
+
+Exibir diferença no diretório anteoriomente: git diff HEAD~1
+
+Baixar o repositorio remoto: git clone <URL>
+	- Outra forma de criar repositório local
+	- Já vem com o remote configurado
+
+Baixar as alterações do repositório remoto: git pull
+	- mantem o repositório sincronizado com os últimos commits de uma branch
+
+Navegar no histórico: git checkout <commit> <file>
+	- Altera o Estado do repositório para aquele commit
+
+Desfazendo alterações: git checkout -- nome_arquivo.extensao
+
+Desfazendo alterações já sateg:git checkout HEAD -- nome_arquivo.extensao
+
+Criando novo commit que desfaz as alterações do commit especificado: git revert <commit>
+	- útil para desfazer um commit antigo
+
+Resetar o repositório para um determinado commit: git reset <commit.
+
+Resetar e remotar todas as alterações: git reser --hard <commit>
+
+git merge
+
+Criar Branch: Ramificações no diretório
+- para que? Facilitar o trabalho
+- lista de commit
+- Representa ramificações no repositório
+- branchs de de dev
+- Branch mastre é o padrão
