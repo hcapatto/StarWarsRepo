@@ -84,3 +84,9 @@ git fetch
 	- permite fazer o rebase de uma branch em vez de fzer o merge
 	- pull = fetch + merge
 	- fetch e rebase é melhor para manter o histórico de desenvolvimento
+
+Tag:
+- útil para definir versões estáveis do projeto
+- Semelhante a Branch porém não mais commitss
+- git tag [nome da tag]
+- git push <remote> <tag>
