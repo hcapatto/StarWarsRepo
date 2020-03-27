@@ -89,4 +89,15 @@ Tag:
 - útil para definir versões estáveis do projeto
 - Semelhante a Branch porém não mais commitss
 - git tag [nome da tag]
-- git push <remote> <tag>
+- git push <remote> <tag> (git push origin v1.0)
+- git checkout <tag>
+
+Fork:
+	- copia um repositório de outro usuário para o seu
+	- assim que começa a contribuição para outros projetos
+
+Issues:
+ - reportar Bugs
+ - Organizar tarefas a serem feitas
+ - Permite discussão entre usuários
+ - Pode ser referenciadas por commits
