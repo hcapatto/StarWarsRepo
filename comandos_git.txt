@@ -145,3 +145,12 @@ GitHub Pages
  - Branch especial 'gh-pages'
  - Deve conter um index.html
  - Gerador de páginas do GitHub
+
+GitHub Milestones
+
+Webhooks
+ - Permite integrar eventos do repositório com outras aplicações
+ - Possui alguns serviçõs já compatíveis
+ - Exemplo: Slack
+
+GitKraken GUI
