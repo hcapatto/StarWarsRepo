@@ -60,11 +60,27 @@ Resetar o repositório para um determinado commit: git reset <commit.
 
 Resetar e remotar todas as alterações: git reser --hard <commit>
 
-git merge
-
-Criar Branch: Ramificações no diretório
+git branch Criar Branch: Ramificações no diretório
 - para que? Facilitar o trabalho
 - lista de commit
 - Representa ramificações no repositório
 - branchs de de dev
 - Branch mastre é o padrão
+
+Criar branch; git branch <nome_branch>
+Excluir branch; git branch -d <nome_branch>
+
+mudar para o branch: git checkout <branch>
+
+git merge
+- aplica os commits de branch na atual
+- Encontra um commit comum e aplica todos os commit que a branch atual não possui
+
+git rebase <branch>
+	-Semelhante ao git merge
+
+git fetch
+	- baixa as atualizações do remote porém não aplica elas no repositório
+	- permite fazer o rebase de uma branch em vez de fzer o merge
+	- pull = fetch + merge
+	- fetch e rebase é melhor para manter o histórico de desenvolvimento
